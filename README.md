@@ -54,6 +54,21 @@ python taiji.py rank --size 20
 python taiji.py raw /aide/api/some/path
 ```
 
+## How it was built
+
+The platform has no public API docs. The entire CLI was built by:
+
+1. Opening Chrome DevTools, manually walking through the platform UI once
+2. Copying requests as cURL from the Network tab
+3. Feeding the cURLs to an AI coding assistant (Codex / Claude Code) to generate the implementation
+4. Testing, finding edge cases, iterating on both the CLI and `CLAUDE.md`
+
+Cookie auth is easiest with the [Cookie-Editor](https://cookie-editor.com/) browser extension — one click to export, paste into `python taiji.py auth setup`.
+
+The first manual pass is worth it: you build a mental model of the platform flow and keep token costs low. Full automation is possible but only pays off once you know the terrain.
+
+See [docs/methodology.md](docs/methodology.md) for the full walkthrough.
+
 ## Structure
 
 ```
