@@ -94,6 +94,7 @@ sample 数据上跑 smoke test，并把结果记到 `docs/experiments.md`。
 
 ## 深入工作前值得读的文档
 
+- [`AGENTS.md`](AGENTS.md) — 平台操作注意事项、常见坑、推荐工作流，AI Agent 上下文文档。
 - `docs/roadmap.md` — 比赛阶段与每个阶段的预期产出。
 - `docs/recsys-intro.md` — 推荐系统背景 + 本赛题数据/Loss/指标讲解。
 - `docs/experiments.md` — 提交记录。
