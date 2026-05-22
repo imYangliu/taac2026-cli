@@ -1,5 +1,7 @@
 # taac2026-cli
 
+[中文版](README_CN.md)
+
 Command-line tool for the [Taiji](https://taiji.algo.qq.com) training platform, built for TAAC 2026 (腾讯 × KDD 广告算法大赛).
 
 Wraps the Taiji REST API to manage training jobs, monitor instances, publish checkpoints, create evaluations, and browse leaderboards — all from the terminal.
